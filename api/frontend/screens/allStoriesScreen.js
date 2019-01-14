@@ -45,8 +45,8 @@ export class AllStoriesScreen extends Component {
     let start =
       pageNumber * this.state.pageStorySize - this.state.pageStorySize;
     let end = start + this.state.pageStorySize;
-    if (end > this.props.stories.length - 1) {
-      end = this.props.stories.length - 1;
+    if (end > this.props.stories.length) {
+      end = this.props.stories.length;
     }
 
     this.setState({
