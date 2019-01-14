@@ -1,0 +1,86 @@
+.story-body-container {
+  display: flex;
+}
+.story-title {
+  text-decoration: none;
+  color: darkblue;
+}
+.comment-link {
+  text-decoration: none;
+  color: darkblue;
+}
+.route-link {
+  text-decoration: none;
+  color: black;
+}
+.route-link:hover {
+  color: white;
+  transition: 500ms linear;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: steelblue;
+  margin: -8px;
+  height: 35px;
+  margin-bottom: auto;
+  align-items: center;
+  margin-left: -40px;
+  min-width: 650px;
+}
+.story-container {
+  border: 1px;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: lightgray;
+}
+.story {
+  margin-left: 10px;
+}
+.story-body {
+  margin-left: 6px;
+}
+.title-stories {
+  border: 1px;
+  border-radius: 5px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.all-stories-container {
+  padding: 1px;
+  min-width: 600px;
+}
+.add-story-input {
+  margin-top: 10px;
+  display: table-caption;
+}
+.upvote {
+  margin-left: 6px;
+}
+.comments-container {
+  margin-left: 10px;
+}
+.input-container {
+  margin-left: 10px;
+}
+.pagination-container {
+  margin-left: 10px;
+}
+.pagination-holder {
+  display: flex;
+  justify-content: center;
+}
+.pagination-tab {
+  margin-right: 2px;
+}
+.pagination-tab:hover {
+  margin-right: 2px;
+  cursor: pointer;
+}
+.comment {
+  border: 1px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
