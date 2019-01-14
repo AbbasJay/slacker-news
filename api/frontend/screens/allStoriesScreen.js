@@ -6,7 +6,7 @@ import StoryItem from "../components/storyItem/storyItem";
 
 export class AllStoriesScreen extends Component {
   state = {
-    pageStorySize: 10,
+    pageStorySize: 9,
     storyStartIndex: 0,
     storyEndIndex: 10
   };
